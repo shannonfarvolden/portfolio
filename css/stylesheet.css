@@ -1,126 +1,125 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: "Spectral", sans-serif;
+  font-size: 20px;
 }
 
 header nav {
-    text-align: right;
-    background: rgba(202, 202, 202, 0.6);
-    color: white;
-    font-size: 1em;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
+  text-align: right;
+  background: rgba(202, 202, 202, 0.6);
+  color: white;
+  font-size: 1em;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 header nav a {
-    color: inherit;
-    text-decoration: none;
-    display: inline-block;
-    padding: 2em 1em .5em;
-    -webkit-transition: all .3s ease-in;
-    z-index: 100;
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2em 1em 0.5em;
+  -webkit-transition: all 0.3s ease-in;
+  z-index: 100;
 }
 .small {
-    padding: .5em 1em;
+  padding: 0.5em 1em;
 }
 header nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .active {
-    background: rgba(255,255,255,0.3);
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .portion {
-
-    background-image: url("../images/background.jpg");
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
+  background-image: url("../images/background.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
 }
 .portion h2 {
-    color: white;
-    font-weight: normal;
-    font-size: 3em;
-    padding: 2em 0;
-    margin: 0;
-    text-shadow: 0 0 10px #767676;
-    /*background: rgba(0,0,0,0.6);*/
+  color: white;
+  font-weight: normal;
+  font-size: 3em;
+  padding: 2em 0;
+  margin: 0;
+  text-shadow: 0 0 10px #767676;
+  /*background: rgba(0,0,0,0.6);*/
 }
 .info {
-    background: white;
-    color: #777;
-    padding: 3em 10%;
+  background: white;
+  color: #777;
+  padding: 3em 10%;
 }
-li{
-    font-size: 16px;
+li {
+  font-size: 16px;
 }
-p{
-    font-size: 16px;
+p {
+  font-size: 16px;
 }
 .vertical-align {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
 }
 
 .button {
-    text-align: center;
+  text-align: center;
 }
 .button a {
-    display: inline-block;
-    border: 2px solid #777;
-    padding: .75em 1.5em;
-    color: #777;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 5px;
-    letter-spacing: .15em;
-    word-spacing: .25em;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
+  display: inline-block;
+  border: 2px solid #777;
+  padding: 0.75em 1.5em;
+  color: #777;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  letter-spacing: 0.15em;
+  word-spacing: 0.25em;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
 }
 .button a:hover {
-    color: #FFFAF0;
-    background: #777;
+  color: #fffaf0;
+  background: #777;
 }
 footer.info {
-    color: #FFFAF0;
-    background: #777;
-    padding: 0 auto;
-    text-align: left;
+  color: #fffaf0;
+  background: #777;
+  padding: 0 auto;
+  text-align: left;
 }
 
 #toTop img {
-    width: 50px;
+  width: 50px;
 }
 #toTop img:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 nav img {
-    z-index: 1000;
-    height: 2.5em;
-    position: absolute;
-    left: 40px;
-    top: 10px;
-    transition: all 0.5s linear;
+  z-index: 1000;
+  height: 2.5em;
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  transition: all 0.5s linear;
 }
 
 .move {
-    top: -60px;
+  top: -60px;
 }
 
 nav span {
-    position: absolute;
-    left: 40px;
-    top: 10px;
-    font-weight: bold;
-    transition: all 0.5s ease-in;
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  font-weight: bold;
+  transition: all 0.5s ease-in;
 }
 
 .movetext {
-    top: -30px;
+  top: -30px;
 }
